@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import MainNavbar from "./components/major/main_navbar";
+import "../compile_tailwind/output.css";
 
 function App() {
-  
   return (
-   <div>
-
-   </div>
-  )
+    <>
+      <MainNavbar />
+    </>
+  );
 }
 
-export default App
+export default App;
