@@ -20,7 +20,7 @@ function Hero() {
     }, 3000);
   }, []);
   return (
-    <div className="min-h-screen flex gap-4 sm:flex-row items-center">
+    <div className="min-h-screen flex gap-4 sm:flex-col items-center">
       <div className="hero_text flex gap-2 w-full flex-col items-center">
         <h1
           className="font-extrabold text-center"
