@@ -2,9 +2,8 @@ import Typed from "typed.js";
 import { useRef, useEffect } from "react";
 import PhoneWithMessages from "/img/ux-mensajes.webp";
 import { Image } from "@nextui-org/react";
-import '../../index.css';
+import "../../index.css";
 function Hero() {
-  const name1 = useRef(null);
   const name2 = useRef(null);
   useEffect(() => {
     setTimeout(() => {
@@ -20,7 +19,7 @@ function Hero() {
     }, 3000);
   }, []);
   return (
-    <div className="min-h-screen flex gap-4 sm:flex-col items-center">
+    <div className="sm:min-h-screen lg:min-h-full lg:flex xl:min-h-screen items-center overflow-hidden">
       <div className="hero_text flex gap-2 w-full flex-col items-center">
         <h1
           className="font-extrabold text-center"
@@ -34,12 +33,13 @@ function Hero() {
           style={{ maxWidth: "640px" }}
         ></p>
       </div>
-      <div className="flex items-center justify-center w-full">
+      <div className="flex relative items-center justify-center w-full p-5">
         <Image
           width={450}
           alt="Teléfono con mensajes"
           src={PhoneWithMessages}
         />
+        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-stone-200 opacity-75"></span>
       </div>
     </div>
   );

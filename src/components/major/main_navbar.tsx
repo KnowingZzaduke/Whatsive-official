@@ -54,6 +54,7 @@ function MainNavbar(): JSX.Element {
       isBlurred
       shouldHideOnScroll
       onMenuOpenChange={setIsMenuOpen}
+      className="bg-black text-white"
     >
       <NavbarContent>
         <NavbarMenuToggle
