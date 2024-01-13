@@ -35,3 +35,136 @@
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 50% 50%);
 }
 
+.section-con-fondo {
+  position: relative;
+}
+
+/* Burbujas de chat */
+.section-con-fondo::before,
+.section-con-fondo::after {
+  content: "";
+  position: absolute;
+  border-radius: 10px;
+  opacity: 0.2;
+  z-index: -1; /* Detrás del contenido */
+}
+
+.section-con-fondo::before {
+  width: 80px;
+  height: 40px;
+  background-color: #2ecc71; /* Color verde */
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  transform: rotate(-10deg);
+  top: 20%;
+  left: 10%;
+}
+
+.section-con-fondo::after {
+  width: 120px;
+  height: 60px;
+  background-color: #3498db; /* Color azul */
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  transform: rotate(15deg);
+  top: 70%;
+  left: 80%;
+}
+
+/* Círculos */
+.section-con-fondo .circulo {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-color: #e74c3c; /* Color rojo */
+  border-radius: 50%;
+  opacity: 0.2;
+  z-index: -1; /* Detrás del contenido */
+}
+
+.section-con-fondo .circulo1 {
+  top: 40%;
+  left: 30%;
+}
+
+.section-con-fondo .circulo2 {
+  top: 60%;
+  left: 70%;
+}
+
+.section-con-fondo .circulo3 {
+  top: 80%;
+  left: 40%;
+}
+
+/* Rectángulos */
+.section-con-fondo .rectangulo {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 60px;
+  background-color: #f39c12; /* Color amarillo */
+  opacity: 0.2;
+  z-index: -1; /* Detrás del contenido */
+}
+
+.section-con-fondo .rectangulo1 {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-con-fondo .rectangulo2 {
+  top: 80%;
+  left: 20%;
+}
+
+.section-con-fondo .rectangulo3 {
+  top: 50%;
+  left: 70%;
+}
+
+/* Óvalos */
+.section-con-fondo .ovalo {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 40px;
+  background-color: #9b59b6; /* Color morado */
+  border-radius: 50%;
+  opacity: 0.2;
+  z-index: -1; /* Detrás del contenido */
+}
+
+.section-con-fondo .ovalo1 {
+  top: 50%;
+  left: 60%;
+}
+
+.section-con-fondo .ovalo2 {
+  top: 30%;
+  left: 30%;
+}
+
+/* Triángulos */
+.section-con-fondo .triangulo {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #3498db; /* Color azul */
+  opacity: 0.2;
+  z-index: -1; /* Detrás del contenido */
+}
+
+.section-con-fondo .triangulo1 {
+  top: 80%;
+  left: 40%;
+}
+
+.section-con-fondo .triangulo2 {
+  top: 20%;
+  left: 80%;
+}
+

@@ -22,10 +22,12 @@ function SectionFunction() {
   return (
     <section className="sm:min-h-screen lg:min-h-full xl:min-h-screen bg-black flex flex-col w-full items-center justify-center">
       <div>
-        <h2 className="text-whatsive-color text-4xl text-center">
+        <h2 className="text-whatsive-color text-4xl text-center py-3">
           ¿Cómo funciona?
         </h2>
-        <p className="text-white text-center py-3">Crea tu instancia para comenzar a enviar mensajes</p>
+        <p className="text-white text-center py-3">
+          Crea tu instancia para comenzar a enviar mensajes
+        </p>
       </div>
       <div className="grid grid-cols-auto gap-3 w-full">
         {functions &&
@@ -39,7 +41,7 @@ function SectionFunction() {
               </CardHeader>
               <CardBody className="overflow-visible py-3 justify-center items-center">
                 <Image
-                  alt={"Imagen de carta" +  ' ' + index}
+                  alt={"Imagen de carta" + " " + index}
                   className="object-cover rounded-xl"
                   src={item.image}
                   width={250}
