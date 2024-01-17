@@ -81,6 +81,10 @@ i18n
                 "Trust us for secure and confidential communication.",
               ],
             },
+            questionsContacts:{
+              text: "If you have questions, ¡contact us here!",
+              button: "Contact"
+            }
           },
         },
       },
@@ -154,6 +158,10 @@ i18n
                 "Confía en nosotros para una comunicación segura y confidencial.                ",
               ],
             },
+            questionsContacts:{
+              text: "Si tienes dudas, ¡contactanos aquí!",
+              button: "Contactar"
+            }
           },
         },
       },
