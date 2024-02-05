@@ -62,11 +62,14 @@ function SectionFaq() {
           ))}
       </div>
       <div className="flex flex-col items-center">
-        <h3 className="text-2xl py-4 text-whatsive-color">
+        <h3 className="text-2xl py-4 text-whatsive-color text-center">
           {t("sectionFaq.questionsContacts.text")}
         </h3>
-        <Button className="flex items-center bg-whatsive-color text-white py-4" style={{width: "220px"}}>
-          <p>Contactar</p>
+        <Button
+          className="flex items-center bg-whatsive-color text-white py-4 my-4 lg:my-0"
+          style={{ width: "220px" }}
+        >
+          <p> {t("sectionFaq.questionsContacts.button")}</p>
           <FaMobileScreenButton />
         </Button>
       </div>

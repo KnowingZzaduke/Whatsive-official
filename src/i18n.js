@@ -81,9 +81,46 @@ i18n
                 "Trust us for secure and confidential communication.",
               ],
             },
-            questionsContacts:{
+            questionsContacts: {
               text: "If you have questions, ¡contact us here!",
-              button: "Contact"
+              button: "Contact",
+            },
+          },
+          sectionPlanes: {
+            freePlane: {
+              title: "Free",
+              subtitle: "100 free messages",
+              list: [
+                "API access",
+                "All kinds of messages",
+                "Creation of broadcasts",
+                "Contact import",
+              ],
+            },
+            monthlyPlaneFirts: {
+              title: "Monthly package",
+              list: [
+                "API access",
+                "All kinds of messages",
+                "Creation of broadcasts",
+                "Contact import",
+                "Support",
+              ],
+            },
+            monthlyPlaneSecond: {
+              title: "Monthly package",
+              subtitle: "You get a 10% discount",
+              list: [
+                "API access",
+                "Unlimited messages",
+                "All kinds of messages",
+                "Creation of broadcasts",
+                "Contact import",
+                "Support in a short time",
+              ],
+            },
+            buttonPlanes:{
+              text: "Get plan"
             }
           },
         },
@@ -158,9 +195,46 @@ i18n
                 "Confía en nosotros para una comunicación segura y confidencial.                ",
               ],
             },
-            questionsContacts:{
+            questionsContacts: {
               text: "Si tienes dudas, ¡contactanos aquí!",
-              button: "Contactar"
+              button: "Contactar",
+            },
+          },
+          sectionPlanes: {
+            freePlane: {
+              title: "Gratis",
+              subtitle: "100 mensajes gratis",
+              list: [
+                "Acceso a la API",
+                "Todo tipo de mensajes",
+                "Creación de difusiones",
+                "Importación de contactos",
+              ],
+            },
+            monthlyPlaneFirts: {
+              title: "Monthly package",
+              list: [
+                "Acceso a la API",
+                "Todo tipo de mensajes",
+                "Creación de difusiones",
+                "Importación de contactos",
+                "Soporte",
+              ],
+            },
+            monthlyPlaneSecond: {
+              title: "Monthly package",
+              subtitle: "Obtienes un descuento del 10%",
+              list: [
+                "Acceso a la API",
+                "Sin límite de mensajes",
+                "Todo tipo de mensajes",
+                "Creación de difusiones", 
+                "Importación de contactos",
+                "Soporte en poco tiempo",
+              ],
+            },
+            buttonPlanes:{
+              text: "Adquirir plan"
             }
           },
         },
