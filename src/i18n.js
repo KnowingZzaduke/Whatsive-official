@@ -119,9 +119,19 @@ i18n
                 "Support in a short time",
               ],
             },
-            buttonPlanes:{
-              text: "Get plan"
-            }
+            buttonPlanes: {
+              text: "Get plan",
+            },
+          },
+          footerInformation: {
+            title: "Leave text messages behind manually",
+            subtitle: "Start sending messages for free",
+            textButton: "Get Started",
+            links: {
+              id: 1,
+              path: "/",
+              name: "Information",
+            },
           },
         },
       },
@@ -228,14 +238,26 @@ i18n
                 "Acceso a la API",
                 "Sin límite de mensajes",
                 "Todo tipo de mensajes",
-                "Creación de difusiones", 
+                "Creación de difusiones",
                 "Importación de contactos",
                 "Soporte en poco tiempo",
               ],
             },
-            buttonPlanes:{
-              text: "Adquirir plan"
-            }
+            buttonPlanes: {
+              text: "Adquirir plan",
+            },
+          },
+          footerInformation: {
+            title: "Deja atras los mensajes de texto de forma manual",
+            subtitle: "Comienza a enviar mensajes de forma gratuita!",
+            textButton: "Comenzar",
+            links: [
+              {
+                id: 1,
+                path: "/",
+                name: "Información",
+              },
+            ],
           },
         },
       },
